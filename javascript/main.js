@@ -1,14 +1,4 @@
 $(document).ready(function() {
-  $('.scroll').onePageNav({
-      currentClass: 'current',
-      changeHash: false,
-      scrollSpeed: 750,
-      scrollThreshold: 0.5,
-      filter: '',
-      easing: 'swing'
-  });
-
-
 
   $("a[href^='#']").on("click", function(e) {
         e.preventDefault();
@@ -19,6 +9,16 @@ $(document).ready(function() {
             window.location.hash = hash;
         });
     });
+
+  $('.scroll').onePageNav({
+      currentClass: 'current',
+      changeHash: false,
+      scrollSpeed: 750,
+      scrollThreshold: 0.5,
+      filter: '',
+      easing: 'swing'
+  });
+
 });
 
 var navWhite = document.getElementById("navbar");

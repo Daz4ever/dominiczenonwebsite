@@ -114,14 +114,14 @@ div.skills .fa-arrow-circle-down:hover{
 	transition: .3s;
 }
 div.portfolio .fa-arrow-circle-down {
-  font-size: 100px;
-  color: yellow;
-  opacity: .3;
-  position: absolute;
-	bottom: 50px;
-	right: 200px;
-	transition: .3s;
-}
+	  font-size: 100px;
+	  color: yellow;
+	  opacity: .3;
+	  position: absolute;
+		bottom: 50px;
+		right: 200px;
+		transition: .3s;
+	}
 
 div.portfolio .fa-arrow-circle-down:hover{
 	opacity: 1;
@@ -184,11 +184,9 @@ li a:focus {
   text-align: center;
 }
 .about h2 {
-    font-family: 'Special Elite', cursive, serif;
-    font-size: 40px;
-    padding-top: 150px;
-    padding-bottom: 40px;
-    color: #F1F7ED;;
+	font-family: 'Special Elite', cursive, serif;
+	font-size: 40px;
+  color: #F1F7ED;;
 }
 
 .about p {
@@ -207,14 +205,14 @@ li a:focus {
 
 .skills {
   text-align: center;
-  background-color: #FBFEF9;
+  background-color: #F1F7ED;
+
+
 }
 .skills h2 {
-  color: black;
+	color: black;
   font-family: 'Special Elite', cursive, serif;
   font-size: 40px;
-  padding-top: 150px;
-  padding-bottom: 200px;
 }
 
 .skills p {
@@ -223,20 +221,22 @@ li a:focus {
   font-size: 20px;
   color: black;
   font-family: 'Quattrocento Sans', sans-serif;
-  padding-bottom: 400px;
+  padding-bottom: 550px;
   font-size: 40px;
 }
 
 .portfolio {
   text-align: center;
-  background-color: #FBFEF9;
+  background-color: #F1F7ED;
+	border-top: 5px solid black;
+
+
+
 }
 .portfolio h2 {
-  color: black;
+	color: black;
   font-family: 'Special Elite', cursive, serif;
   font-size: 40px;
-  padding-top: 150px;
-  padding-bottom: 200px;
 }
 
 .portfolio p {
@@ -245,7 +245,7 @@ li a:focus {
   font-size: 20px;
   color: black;
   font-family: 'Quattrocento Sans', sans-serif;
-  padding-bottom: 400px;
+  padding-bottom: 550px;
   font-size: 40px;
 }
 
@@ -255,13 +255,12 @@ li a:focus {
   font-size: 20px;
   color: black;
   font-family: 'Quattrocento Sans', sans-serif;
-  padding-bottom: 400px;
-  font-size: 40px;
 }
 
 .contact {
   text-align: center;
   background-color: #F2E94E;
+	border-top: 5px solid black;
 
 }
 
@@ -269,15 +268,81 @@ li a:focus {
   color: black;
   font-family: 'Special Elite', cursive, serif;
   font-size: 40px;
-  padding-top: 150px;
-  padding-bottom: 200px;
+
 }
 
+.copyright {
+	text-align: center;
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-weight: bold;
+	padding: 50px;
+	background-color: #F2E94E;
+}
 .fa-bars {
   display: none;
 }
 
-@media screen and (max-width: 768px) {
+.contact .titlebox {
+	position: relative;
+	max-width: 400px;
+	margin: auto;
+	padding: 100px 50px 250px 50px;
+}
+
+.skills .titlebox {
+	position: relative;
+	max-width: 400px;
+	margin: auto;
+	padding: 100px 50px 75px 50px;
+}
+
+.portfolio .titlebox {
+	position: relative;
+	max-width: 400px;
+	margin: auto;
+	padding: 100px 50px 75px 50px;
+}
+
+.about .titlebox {
+	position: relative;
+	max-width: 500px;
+	margin: auto;
+	padding: 100px 50px 75px 50px;
+}
+
+.fa-road {
+	font-size: 50px;
+	color: #FBFEF9;
+	position: absolute;
+	top: 90px;
+	right: 10px;
+}
+
+.fa-tasks {
+	font-size: 40px;
+	color: black;
+	position: absolute;
+	top: 100px;
+	right: 60px;
+}
+
+.fa-folder-open {
+	font-size: 40px;
+	color: black;
+	position: absolute;
+	top: 95px;
+	right: 30px;
+}
+
+.fa-compress {
+	font-size: 60px;
+	color: black;
+	position: absolute;
+	top: 85px;
+	right: 10px;
+}
+
+@media screen and (max-width: 767px) {
   .fa-bars {
     font-size: 40px;
     z-index: 99999;
@@ -311,25 +376,35 @@ li a:focus {
     width: 100%;
     background: rgba(255, 255, 255, 0.7);
   }
-  div.backdroppic .fa-arrow-circle-down {
-    margin-top: 380px;
-    font-size: 70px;
-    color: yellow;
-    opacity: .3;
-      /* position: absolute; */
-    margin-left: 190px;
+	.fa-arrow-circle-down {
     display:none;
 }
-.about p {
+	.fa-folder-open {
+		display: none;
+	}
+
+	.fa-tasks {
+		display: none;
+	}
+
+	.fa-road {
+		display: none;
+	}
+
+	.about p {
   padding: 20px 15px;
   line-height: 30px;
   font-size: 20px;
   color: #F1F7ED;
   font-family: 'Quattrocento Sans', sans-serif;
-}
+	}
 
-.about p:nth-of-type(4) {
+	.about p:nth-of-type(4) {
 
   padding-bottom: 200px
-}
+	}
+
+	.fa-compress {
+	display: none;
+	}
 }

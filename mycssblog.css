@@ -42,7 +42,7 @@ table {
 }
 
 body {
-  background-color: #FBFEF9;
+  background-color: #564138;
 }
 
 .container-fluid {
@@ -95,8 +95,8 @@ li a:focus {
 }
 
 .blog {
-  background-color: #564138;
-  color: #F1F7ED;
+  background-color: #F1F7ED;
+  color: black;
   text-align: center;
 }
 
@@ -108,8 +108,8 @@ img {
 
 h2 {
   font-family: 'Special Elite', cursive, serif;
-  margin-top: 80px;
-  padding: 20px 50px;
+  margin-top: 100px;
+  padding: 40px 50px;
   text-align: left;
 }
 
@@ -118,21 +118,18 @@ h5 {
   padding: 0 50px;
   text-align: left;
 }
+.firstday h5 {
+	padding-bottom: 50px;
+}
+
 p {
   padding: 0 50px;
-  line-height: 30px;
+  line-height: 40px;
   font-size: 20px;
   font-family: 'Quattrocento Sans', sans-serif;
   text-align: left;
 }
 
-.blog p a {
-  color: yellow;
-}
-
-.blog p a:hover {
-  color: yellow;
-}
 
 p:last-of-type {
   margin-bottom: 60px;
