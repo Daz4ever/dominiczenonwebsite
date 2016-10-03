@@ -409,9 +409,6 @@ li a:focus {
   }
   .navbar {
     margin-bottom: 0;
-		background: rgba(162,139,97,1);
-	}
-
   }
   .rightnav {
     left: 0;
@@ -433,8 +430,7 @@ li a:focus {
   a {
     display: block;
     width: 100%;
-    background:rgba(162,139,97,1);
-		opacity: 1;
+    background: #f2e9d2;
   }
 	.fa-arrow-circle-down {
     display:none;
@@ -458,7 +454,6 @@ li a:focus {
   color: #F1F7ED;
   font-family: 'Quattrocento Sans', sans-serif;
 	}
-
 	.about p:nth-of-type(4) {
 
   padding-bottom: 200px
@@ -473,6 +468,9 @@ li a:focus {
 }
 .contacticondivs {
 	display: block;
-}
 
+}
+.navbar a {
+	background: rgba(162,139,97,1);
+}
 }
