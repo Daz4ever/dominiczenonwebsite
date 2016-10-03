@@ -42,7 +42,7 @@ table {
 }
 
 body {
-  background-color: #564138;
+  background-color: #564130;
 }
 
 .container-fluid {
@@ -51,7 +51,7 @@ body {
 
 .navbar {
   position: fixed;
-  background: white;
+  background: rgba(162,139,97,1);
   top: 0;
   left: 0;
   right:0;
@@ -70,7 +70,6 @@ li {
   text-decoration: none;
   font-family: 'Special Elite', cursive, serif;
   font-size: 1.2em;
-  color: #337ab7;
   display: inline-block;
 
 }
@@ -78,24 +77,28 @@ li {
 li a {
 
   padding: 20px;
+	color: white;
+	opacity: .7;
 
 }
 
 li a:hover {
   text-decoration: none;
-  border: 2px solid #F24236;
+  border: 2px solid yellow;
   border-radius: 5px;
-  color: #F24236;
+  color: yellow;
+	opacity: 1;
 
 }
 
 li a:focus {
   text-decoration: none;
-  color: #F24236;
+  color: yellow;
+	opacity: 1;
 }
 
 .blog {
-  background-color: #F1F7ED;
+  background-color: #f2e9d2;
   color: black;
   text-align: center;
 }

@@ -25,16 +25,17 @@ var navWhite = document.getElementById("navbar");
 window.onscroll = scroll;
 function scroll() {
   if (window.pageYOffset >= 773) {
-    navWhite.style.backgroundColor = "white";
+    navWhite.style.backgroundColor = "rgba(162,139,97, 1)";
   }
   else {
-    navWhite.style.backgroundColor = "rgba(255, 255, 255, 0.7)";
+    navWhite.style.backgroundColor = "rgba(162,139,97,.7)";
   }
 }
 
 
 var bar = document.getElementById("fa-bars");
 var navbars = document.getElementById("nav");
+var navbarlinks = document.querySelectorAll(".navbar-link");
 var body = document.querySelectorAll("body");
 var clicked = false;
 
@@ -48,3 +49,12 @@ bar.addEventListener("click", function() {
   }
 	// navbars.classList.toggle("hide");
 });
+
+
+if (window.innerWidth <  768) {
+  for (var i = 0; i < navbarlinks.length; i++) {
+    navbarlinks[i].addEventListener("click", function() {
+      navbars.style.display = "none";
+    });
+  }
+}

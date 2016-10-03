@@ -101,7 +101,7 @@ div.about .fa-arrow-circle-down:hover{
 }
 div.skills .fa-arrow-circle-down {
   font-size: 100px;
-  color: yellow;
+  color: rgba(162,139,97,1);
   opacity: .3;
   position: absolute;
 	bottom: 50px;
@@ -115,7 +115,7 @@ div.skills .fa-arrow-circle-down:hover{
 }
 div.portfolio .fa-arrow-circle-down {
 	  font-size: 100px;
-	  color: yellow;
+	  color: yellow;;
 	  opacity: .3;
 	  position: absolute;
 		bottom: 50px;
@@ -130,7 +130,7 @@ div.portfolio .fa-arrow-circle-down:hover{
 
 .navbar {
   position: fixed;
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(162,139,97,.7);
   top: 0;
   left: 0;
   right:0;
@@ -150,7 +150,6 @@ li {
   text-decoration: none;
   font-family: 'Special Elite', cursive, serif;
   font-size: 1.2em;
-  color: #337ab7;
   display: inline-block;
 
 }
@@ -158,28 +157,31 @@ li {
 li a {
 
   padding: 20px;
-
+	color: white;
+	opacity: .7;
 }
 
 li a:hover {
   text-decoration: none;
-  border: 2px solid #F24236;
+  border: 2px solid yellow;
   border-radius: 5px;
-  color: #F24236;
+  color: yellow;
+	opacity: 1;
 
 }
 
 li a:focus {
   text-decoration: none;
-  color: #F24236;
+  color: yellow;
 }
 
 #nav .current a {
-  color: #F24236;
+  color: yellow;
+	opacity: 1;
 }
 
 .about {
-  background-color: #564138;
+  background-color: #564130;
   color: white;
   text-align: center;
 }
@@ -205,7 +207,7 @@ li a:focus {
 
 .skills {
   text-align: center;
-  background-color: #F1F7ED;
+  background-color: #f2e9d2;
 
 
 }
@@ -227,14 +229,14 @@ li a:focus {
 
 .portfolio {
   text-align: center;
-  background-color: #F1F7ED;
-	border-top: 5px solid black;
+  background-color: #564130;;
+
 
 
 
 }
 .portfolio h2 {
-	color: black;
+	color: #F1F7ED;
   font-family: 'Special Elite', cursive, serif;
   font-size: 40px;
 }
@@ -243,7 +245,7 @@ li a:focus {
   padding: 20px 150px;
   line-height: 30px;
   font-size: 20px;
-  color: black;
+  color: #F1F7ED;
   font-family: 'Quattrocento Sans', sans-serif;
   padding-bottom: 550px;
   font-size: 40px;
@@ -259,8 +261,7 @@ li a:focus {
 
 .contact {
   text-align: center;
-  background-color: #F2E94E;
-	border-top: 5px solid black;
+  background-color: #f2e9d2;
 
 }
 
@@ -276,7 +277,7 @@ li a:focus {
 	font-family: 'Quattrocento Sans', sans-serif;
 	font-weight: bold;
 	padding: 50px;
-	background-color: #F2E94E;
+	background-color: #f2e9d2;
 }
 .fa-bars {
   display: none;
@@ -286,7 +287,7 @@ li a:focus {
 	position: relative;
 	max-width: 400px;
 	margin: auto;
-	padding: 100px 50px 250px 50px;
+	padding: 100px 50px 30px 50px;
 }
 
 .skills .titlebox {
@@ -300,7 +301,23 @@ li a:focus {
 	position: relative;
 	max-width: 400px;
 	margin: auto;
-	padding: 100px 50px 75px 50px;
+	padding: 100px 50px 120px 50px;
+}
+
+.project1 {
+	margin-bottom: 60px;
+}
+
+.project2 {
+	margin-bottom: 60px;
+}
+
+.project3 {
+	margin-bottom: 200px;
+}
+
+.project4 {
+	margin-bottom: 200px;
 }
 
 .about .titlebox {
@@ -328,7 +345,7 @@ li a:focus {
 
 .fa-folder-open {
 	font-size: 40px;
-	color: black;
+	color: #F1F7ED;
 	position: absolute;
 	top: 95px;
 	right: 30px;
@@ -342,6 +359,45 @@ li a:focus {
 	right: 10px;
 }
 
+.contacticons {
+
+	position: relative;
+	max-width: 500px;
+	margin: auto;
+	padding: 50px 50px 75px 50px;
+
+}
+
+.contacticons .fa {
+
+	font-size: 50px;
+}
+
+.contacticons p {
+	color: #337ab7;
+	padding: 0;
+	margin: 0;
+}
+
+.contacticons a:hover {
+	text-decoration: none;
+	color: #23527C;
+}
+
+.contacticondivs {
+	display: inline-block;
+	padding: 0 20px;
+	padding-bottom: 10px;
+
+}
+@media screen and (max-width: 991px) {
+
+	.project3 {
+		margin-bottom: 60px;
+	}
+
+}
+
 @media screen and (max-width: 767px) {
   .fa-bars {
     font-size: 40px;
@@ -353,6 +409,9 @@ li a:focus {
   }
   .navbar {
     margin-bottom: 0;
+		background: rgba(162,139,97,1);
+	}
+
   }
   .rightnav {
     left: 0;
@@ -374,7 +433,8 @@ li a:focus {
   a {
     display: block;
     width: 100%;
-    background: rgba(255, 255, 255, 0.7);
+    background:rgba(162,139,97,1);
+		opacity: 1;
   }
 	.fa-arrow-circle-down {
     display:none;
@@ -407,4 +467,12 @@ li a:focus {
 	.fa-compress {
 	display: none;
 	}
+
+	.project3 {
+		margin-bottom: 60px;
+}
+.contacticondivs {
+	display: block;
+}
+
 }
