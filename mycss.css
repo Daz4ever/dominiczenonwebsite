@@ -227,6 +227,11 @@ li a:focus {
   font-size: 40px;
 }
 
+
+.grill {
+	width: 350px;
+	height: 250px;
+}
 .portfolio {
   text-align: center;
   background-color: #564130;;
