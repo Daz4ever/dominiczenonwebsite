@@ -33,7 +33,7 @@ function scroll() {
 }
 
 
-var bar = document.getElementById("fa-bars");
+var bar = document.getElementById("fa-map-signs");
 var navbars = document.getElementById("nav");
 var navbarlinks = document.querySelectorAll(".navbar-link");
 var body = document.querySelectorAll("body");
